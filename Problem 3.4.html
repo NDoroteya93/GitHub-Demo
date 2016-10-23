@@ -3,7 +3,7 @@
 
 <head lang="en">
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link type="text/css" rel="stylesheet" href="style/style.css" />
     <title>Grid component</title>
 </head>
 
@@ -11,15 +11,15 @@
     <table>
         <thead>
             <tr>
-                <th colspan="6">Drag a column header and drop it here to group by that column</th>
+                <td colspan="6">Drag a column header and drop it here to group by that column</td>
             </tr>
             <tr>
-                <th><label for="product-id">ProductID</label></th>
-                <th><label for="product-name">Product name</label></th>
-                <th><label for="unit-price">Unit pВrice</label></th>
-                <th><label for="quantity-unit">Quantity per unit</label></th>
-                <th><label for="units-stock">Units in stock</label></th>
-                <th><label for="discontinued">Discontinued</label></th>
+                <td><label for="product-id">ProductID</label></td>
+                <td><label for="product-name">Product name</label></td>
+                <td><label for="unit-price">Unit price</label></td>
+                <td><label for="quantity-unit">Quantity per unit</label></td>
+                <td><label for="units-stock">Units in stock</label></td>
+                <td><label for="discontinued">Discontinued</label></td>
             </tr>
             <tr>
                 <td>
@@ -37,19 +37,19 @@
                 </td>
                 <td>
                     <input type="text" id="units-stock" />
-                    <button><img src="img/filter.png" /></button>
+                    <button type="button"><img src="img/filter.png" /></button>
                 </td>
                 <td>
                     <input type="checkbox" id="discontinued " />
-                    <button><img src="img/filter.png " /></button>
+                    <button type="button"><img src="img/filter.png " /></button>
                 </td>
             </tr>
         </thead>
         <tfoot>
             <tr>
                 <td colspan="6 ">
-                    <input type="image " />
-                    <input type="image " />
+                    <button type="button"><img src="img/media_prev.png" /></button>
+                    <button type="button"><img src="img/prev.png" /></button>
                     <a href="# ">1</a>
                     <a href="# ">2</a>
                     <a href="# ">3</a>
@@ -59,9 +59,10 @@
                     <a href="# ">7</a>
                     <a href="# ">8</a>
                     <a href="# ">9</a>
-                    <a href="# ">10</a>...
-                    <input type="image " />
-                    <input type="image " />
+                    <a href="# ">10</a>
+                    <a href="#">...</a>
+                    <button type="button"><img src="img/next.png" /></button>
+                    <button type="button"><img src="img/media_next.png" /></button>
 
                     <label for="page-size ">Page size</label>
                     <select id="page-size ">
@@ -90,7 +91,7 @@
                 <td>10 boxes x 20 bags</td>
                 <td>39</td>
                 <td>
-                    <input type="checkbox " />
+                    <input type="checkbox" />
                 </td>
             </tr>
 
@@ -101,7 +102,7 @@
                 <td>24 - 12 oz bottles</td>
                 <td>17</td>
                 <td>
-                    <input type="checkbox " />
+                    <input type="checkbox" />
                 </td>
             </tr>
 
@@ -112,7 +113,7 @@
                 <td>12 - 550 ml bottles</td>
                 <td>13</td>
                 <td>
-                    <input type="checkbox " />
+                    <input type="checkbox" />
                 </td>
             </tr>
 
@@ -123,7 +124,7 @@
                 <td>48 - 6 oz jars</td>
                 <td>53</td>
                 <td>
-                    <input type="checkbox " />
+                    <input type="checkbox" />
                 </td>
             </tr>
 
@@ -134,7 +135,7 @@
                 <td>38 boxes</td>
                 <td>0</td>
                 <td>
-                    <input type="checkbox " checked/>
+                    <input type="checkbox" checked/>
                 </td>
             </tr>
 
@@ -145,7 +146,7 @@
                 <td>12 - 8 oz jars</td>
                 <td>120</td>
                 <td>
-                    <input type="checkbox " />
+                    <input type="checkbox" />
                 </td>
             </tr>
 
@@ -156,7 +157,7 @@
                 <td>12 - 1 lb pkgs.</td>
                 <td>15</td>
                 <td>
-                    <input type="checkbox " />
+                    <input type="checkbox" />
                 </td>
             </tr>
 
@@ -167,7 +168,7 @@
                 <td>12 - 12 oz jars.</td>
                 <td>6</td>
                 <td>
-                    <input type="checkbox " />
+                    <input type="checkbox" />
                 </td>
             </tr>
 
@@ -178,7 +179,7 @@
                 <td>18 - 500 g pkgs.</td>
                 <td>29</td>
                 <td>
-                    <input type="checkbox " checked/>
+                    <input type="checkbox" checked/>
                 </td>
             </tr>
 
@@ -189,7 +190,7 @@
                 <td>12 - 200 ml jars</td>
                 <td>31</td>
                 <td>
-                    <input type="checkbox " checked/>
+                    <input type="checkbox" checked/>
                 </td>
             </tr>
         </tbody>
